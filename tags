@@ -1,0 +1,224 @@
+.PHONY	Makefile	/^.PHONY: all$/
+.PHONY	Makefile	/^.PHONY: check$/
+.PHONY	Makefile	/^.PHONY: setup$/
+.PHONY	Makefile	/^.PHONY: fix-flask$/
+.PHONY	Makefile	/^.PHONY: clean$/
+.PHONY	Makefile	/^.PHONY: prepare-submit$/
+.PHONY	Makefile	/^.PHONY: prepare-submit-a$/
+.PHONY	Makefile	/^.PHONY: prepare-submit-b$/
+.PHONY	Makefile	/^.PHONY: submit-a$/
+.PHONY	Makefile	/^.PHONY: submit-b$/
+.PHONY	Makefile	/^.PHONY: submit$/
+.PRECIOUS	Makefile	/^.PRECIOUS: lab2-handin.tar.gz$/
+.globl	shellcode.S	/^.globl main$/
+ASFLAGS	Makefile	/^ASFLAGS := -m32$/
+BIN	chroot-copy.sh	2
+Benjamin	LICENSE	4
+CFLAGS	Makefile	/^CFLAGS  := -m32 -g -std=c99 -Wall -Werror -D_GNU_S/
+CLAIM	LICENSE	22
+CONTRACT	LICENSE	23
+Chandra	LICENSE	4
+D	chroot-copy.sh	24
+DIFF	fix-flask.sh	3
+F	clean-env.sh	2
+FROM	LICENSE	23
+F¢	zookfs-exstack	13
+F¢	zookfs-nxstack	13
+IMPLIED	LICENSE	19
+KIND	LICENSE	18
+LDFLAGS	Makefile	/^LDFLAGS := -m32$/
+LDLIBS	Makefile	/^LDLIBS  := -lcrypto$/
+LIABILITY	LICENSE	22
+LIBS	chroot-copy.sh	20
+MAX_GIDS	zookld.c	19
+MAX_SERVICES	zookd.c	12
+MAX_SERVICES	zookld.c	18
+MERCHANTABILITY	LICENSE	20
+Mcheck_lab2.py	check_lab2.py	/^def main():$/
+Mcheck_lab2_part4.py	check_lab2_part4.py	/^def main():$/
+Mrun-shellcode	run-shellcode.c	/^main(int ac, char **av)$/
+Msubmit.py	submit.py	/^def main(filename):$/
+Mzookd	zookd.c	/^int main(int argc, char **argv)$/
+Mzookfs	zookfs.c	/^int main(int argc, char **argv)$/
+Mzookld	zookld.c	/^int main(int argc, char **argv)$/
+OTHERWISE	LICENSE	23
+PROGS	Makefile	/^PROGS   := zookld zookfs zookd$/
+PWD	clean-env.sh	16
+Software	LICENSE	11
+Thomas	LICENSE	3
+Wang	LICENSE	3
+ZOOK_CONF	zookld.c	17
+Zeldovich	LICENSE	3
+_	zookd-withssp	18
+access	check_lab2.py	/^def access(pn, perm):$/
+all	Makefile	/^all: $(PROGS)$/
+arg	answers.txt	7
+bounds	answers.txt	7
+build_exploit	exploit-2a.py	/^def build_exploit(shellcode):$/
+build_exploit	exploit-2b.py	/^def build_exploit(shellcode):$/
+build_exploit	exploit-3.py	/^def build_exploit(shellcode):$/
+build_exploit	exploit-4a.py	/^def build_exploit(shellcode):$/
+build_exploit	exploit-4b.py	/^def build_exploit(shellcode):$/
+bytes	bugs.txt	25
+cgi_gid	http.c	247
+cgi_uid	http.c	246
+charge	LICENSE	7
+check	check_lab2_part4.py	/^def check():$/
+check	check_lab2_part4.py	/^def check():$/
+check	Makefile	/^check:$/
+check	z_client.py	/^def check():$/
+check_db	check_lab2.py	/^def check_db(ex, service, dbfile, table, columns):/
+check_ex0	check_lab2_part4.py	/^def check_ex0():$/
+check_ex0	check_lab2.py	/^def check_ex0():$/
+check_ex2	check_lab2.py	/^def check_ex2():$/
+check_ex3	check_lab2.py	/^def check_ex3():$/
+check_ex4	check_lab2.py	/^def check_ex4():$/
+check_ex4_1	check_lab2.py	/^def check_ex4_1():$/
+check_ex4_2	check_lab2.py	/^def check_ex4_2():$/
+check_ex4_3	check_lab2.py	/^def check_ex4_3():$/
+check_ex5	check_lab2.py	/^def check_ex5():$/
+check_ex5_1	check_lab2.py	/^def check_ex5_1():$/
+check_ex5_2	check_lab2.py	/^def check_ex5_2():$/
+check_ex6	check_lab2.py	/^def check_ex6():$/
+check_ex7	check_lab2.py	/^def check_ex7():$/
+check_ex7_1	check_lab2.py	/^def check_ex7_1():$/
+check_exec	check_lab2.py	/^def check_exec(svc, allowed):$/
+check_fs	check_lab2_part4.py	/^def check_fs():$/
+check_granter	check_lab2_part4.py	/^def check_granter():$/
+check_granter_1	check_lab2_part4.py	/^def check_granter_1():$/
+check_granter_2	check_lab2_part4.py	/^def check_granter_2():$/
+check_granter_3	check_lab2_part4.py	/^def check_granter_3():$/
+check_granter_4	check_lab2_part4.py	/^def check_granter_4():$/
+check_hello	check_lab2_part4.py	/^def check_hello():$/
+check_last_visits	check_lab2_part4.py	/^def check_last_visits():$/
+check_last_visits_1	check_lab2_part4.py	/^def check_last_visits_1():$/
+check_last_visits_2	check_lab2_part4.py	/^def check_last_visits_2():$/
+check_last_visits_3	check_lab2_part4.py	/^def check_last_visits_3():$/
+check_myprofile	check_lab2_part4.py	/^def check_myprofile():$/
+check_profile	check_lab2_part4.py	/^def check_profile(prof_py, prof_pat, msg):$/
+check_profile_internal	check_lab2_part4.py	/^def check_profile_internal(logmsg, code, prof_pat,/
+check_profile_service	check_lab2_part4.py	/^def check_profile_service():$/
+check_profileapi_uid	check_lab2_part4.py	/^def check_profileapi_uid():$/
+check_root	check_lab2_part4.py	/^def check_root():$/
+check_root	check_lab2.py	/^def check_root():$/
+check_sandbox	check_lab2_part4.py	/^def check_sandbox():$/
+check_visit_tracker	check_lab2_part4.py	/^def check_visit_tracker():$/
+check_visit_tracker_1	check_lab2_part4.py	/^def check_visit_tracker_1():$/
+check_visit_tracker_2	check_lab2_part4.py	/^def check_visit_tracker_2():$/
+check_xfer_tracker	check_lab2_part4.py	/^def check_xfer_tracker():$/
+check_xfer_tracker_1	check_lab2_part4.py	/^def check_xfer_tracker_1():$/
+check_zoobars	z_client.py	/^def check_zoobars(html, user, zoobars, zmsg):$/
+clean	Makefile	/^clean:$/
+clean_env	check_lab2_part4.py	/^def clean_env():$/
+clean_env	check_lab2.py	/^def clean_env():$/
+column_in_table	check_lab2_part4.py	/^def column_in_table(dbfile, table, column):$/
+column_in_table	check_lab2.py	/^def column_in_table(dbfile, table, column):$/
+copy	LICENSE	10
+core	a	9
+create_socket_dir	chroot-setup.sh	/^create_socket_dir() {$/
+db_tables	check_lab2.py	/^def db_tables(dbfile):$/
+dbquery	check_lab2_part4.py	/^def dbquery(dbfile, q):$/
+dbquery	check_lab2.py	/^def dbquery(dbfile, q):$/
+dir_join	http.c	/^void dir_join(char *dst, const char *dirname, cons/
+distribute	LICENSE	11
+env_deserialize	http.c	/^void env_deserialize(const char *env, size_t len)$/
+fdprintf	http.c	/^void fdprintf(int fd, char *fmt, ...)$/
+file_read	check_lab2_part4.py	/^def file_read(pn, size=-1):$/
+file_read	check_lab2.py	/^def file_read(pn):$/
+file_read	z_client.py	/^def file_read(pn):$/
+file_read_check	check_lab2_part4.py	/^def file_read_check(logmsg, sbpath, realpath=None,/
+file_uid	check_lab2.py	/^def file_uid(pn):$/
+file_write	z_client.py	/^def file_write(pn, data):$/
+file_write_check	check_lab2_part4.py	/^def file_write_check(logmsg, sbpath, data=None,$/
+fix-flask	Makefile	/^fix-flask: fix-flask.sh$/
+get	z_client.py	/^def get(url, cookies):$/
+gids	zookld.c	26
+granted	LICENSE	7
+green	check_lab2_part4.py	/^def green(s):$/
+green	check_lab2.py	/^def green(s):$/
+group_parse_cb	zookld.c	/^static int group_parse_cb(const char *gid_str, int/
+gü	zookld.o	30
+http_err	http.c	/^void http_err(int fd, int code, char *fmt, ...)$/
+http_read_line	http.c	/^int http_read_line(int fd, char *buf, size_t size)/
+http_request_headers	answers.txt	/^exploit-3.py attacks via the http_request_headers(/
+http_request_headers	http.c	/^const char *http_request_headers(int fd)$/
+http_request_line	http.c	/^const char *http_request_line(int fd, char *reqpat/
+http_serve	http.c	/^void http_serve(int fd, const char *name)$/
+http_serve_directory	http.c	/^void http_serve_directory(int fd, const char *pn) /
+http_serve_executable	http.c	/^void http_serve_executable(int fd, const char *pn)/
+http_serve_file	http.c	/^void http_serve_file(int fd, const char *pn)$/
+http_serve_none	http.c	/^void http_serve_none(int fd, const char *pn)$/
+http_set_executable_uid_gid	http.c	/^http_set_executable_uid_gid(int uid, int gid)$/
+is_chrooted	check_lab2.py	/^def is_chrooted(process_name):$/
+killall	check_lab2_part4.py	/^def killall():$/
+killall	check_lab2.py	/^def killall():$/
+lab%-handin.tar.gz	Makefile	/^lab%-handin.tar.gz: clean$/
+launch_svc	zookld.c	/^pid_t launch_svc(CONF *conf, const char *name)$/
+log	check_lab2_part4.py	/^def log(*m):$/
+log	check_lab2.py	/^def log(*m):$/
+log_exit	check_lab2_part4.py	/^def log_exit(*m):$/
+log_exit	check_lab2.py	/^def log_exit(*m):$/
+log_to_file	check_lab2_part4.py	/^def log_to_file(*m):$/
+login	z_client.py	/^def login(user, password):$/
+login_page	z_client.py	/^def login_page(op, user, password):$/
+merge	LICENSE	10
+modify	LICENSE	10
+ngids	zookld.c	25
+nsvcs	zookd.c	13
+nsvcs	zookld.c	23
+path	answers.txt	4
+port	zook.conf	2
+post	z_client.py	/^def post(url, cookies, postdata):$/
+prepare-submit	Makefile	/^prepare-submit: lab2-handin.tar.gz$/
+prepare-submit-a	Makefile	/^prepare-submit-a: lab2a-handin.tar.gz$/
+prepare-submit-b	Makefile	/^prepare-submit-b: lab2b-handin.tar.gz$/
+print_wget_log	z_client.py	/^def print_wget_log():$/
+process_client	zookd.c	/^static void process_client(int fd)$/
+publish	LICENSE	10
+recvfd	http.c	/^ssize_t recvfd(int socket, void *buffer, size_t le/
+red	check_lab2_part4.py	/^def red(s):$/
+red	check_lab2.py	/^def red(s):$/
+register	z_client.py	/^def register(user, password):$/
+restore_env	check_lab2_part4.py	/^def restore_env():$/
+restore_env	check_lab2.py	/^def restore_env():$/
+restriction	LICENSE	9
+run_wget	z_client.py	/^def run_wget(opts=[]):$/
+send_req	exploit-2a.py	/^def send_req(host, port, req):$/
+send_req	exploit-2b.py	/^def send_req(host, port, req):$/
+send_req	exploit-3.py	/^def send_req(host, port, req):$/
+send_req	exploit-4a.py	/^def send_req(host, port, req):$/
+send_req	exploit-4b.py	/^def send_req(host, port, req):$/
+sendfd	http.c	/^ssize_t sendfd(int socket, const void *buffer, siz/
+service_parse_cb	zookld.c	/^static int service_parse_cb(const char *name, int /
+set_perms	chroot-setup.sh	/^set_perms() {$/
+setup	check_lab2_part4.py	/^def setup():$/
+setup	check_lab2.py	/^def setup():$/
+setup	Makefile	/^setup:$/
+sh	check_lab2_part4.py	/^def sh(cmd, exit_onerr=True):$/
+sh	check_lab2.py	/^def sh(cmd, exit_onerr=True):$/
+showZoobars	lab11.tar	/^  function showZoobars(zoobars) {$/
+showZoobars	lab1-handin.tar	/^  function showZoobars(zoobars) {$/
+showZoobars	lab1.tar	/^  function showZoobars(zoobars) {$/
+so	LICENSE	12
+split_path	http.c	/^void split_path(char *pn)$/
+start_server	zookld.c	/^static int start_server(const char *portstr)$/
+sublicense	LICENSE	11
+submit	Makefile	/^submit: lab2-handin.tar.gz$/
+submit-a	Makefile	/^submit-a: lab2a-handin.tar.gz$/
+submit-b	Makefile	/^submit-b: lab2b-handin.tar.gz$/
+svcfds	zookd.c	14
+svcfds	zookld.c	21
+svcnames	zookld.c	22
+svcurls	zookd.c	15
+touch	http.c	/^void touch(const char *name) {$/
+transfer	z_client.py	/^def transfer(sender_cookies, recipient, zoobars):$/
+uã	zookd	3
+update_profile	check_lab2_part4.py	/^def update_profile(cookie, code):$/
+url_decode	bugs.txt	/^    void url_decode(char *dst, const char *src) { /
+url_decode	http.c	/^void url_decode(char *dst, const char *src)$/
+use	LICENSE	10
+valid_cgi_script	http.c	/^valid_cgi_script(struct stat *st)$/
+view_user	z_client.py	/^def view_user(cookies, username):$/
+zook_uids	check_lab2.py	/^def zook_uids(url):$/
+zookld zookd zookfs	Makefile	/^zookld zookd zookfs: %: %.o http.o$/
+zß	zookd	7

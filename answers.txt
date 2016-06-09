@@ -1,0 +1,29 @@
+## Place your answers here.
+Exercise 2:
+exploit-2a.py attacks via the url_decode function that is called in http_request_line 
+function[http.c:106] by providing a very long request path, enough to overflow the 
+buffer reqpath and corrupt memory causing a segfault.
+exploit-2b.py attacks via the function pointer defined in http_serve [http.c:276] called 
+handler. By providing a long value to the name arg, which does not check bounds, can 
+overwrite past the end of the pn buffer and into the handler fn pointer.  
+
+Exercise 3:
+exploit-3.py attacks via the http_request_headers() method. That method parses the HTTP 
+headers. It calls the vulnerable url_decode function to copy a decoded string into its 
+value buf. The value buf is overflowed as to overwrite the saved eip on the stack. By 
+placing the exploit shell code into the buff, and changing the saved eip to the start of
+the shellcode in the buf, we can run the arbitrary code.   
+
+Exercise 4:
+exploit-4a.py is a revised version of exploit-3.py that works when the nx bit is enabled. 
+It overwrites the saved EIP but instead sets the return to unlink. In the next word following 
+the pointer to unlink(), it also inserts a fake return address to be executed after unlink 
+is called---exit(). This was overflowed via the url_decode method called in http_request_headers.  
+exploit-4b.py is a revised version of exploit-2b.py that attacks the function pointer handler. 
+I overwrite the handler to point to unlink, like before. I had to add garbage characters in 
+between the handler and fd with 4 words to write to the right location.
+
+Exercise 5
+a.The profile from user may contain some malicious code affects the other users.
+b.There is no auth when transfering zoobars between users, so an attacker may
+call the transfer service to change the other users' information or others.        
