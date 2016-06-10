@@ -1,0 +1,727 @@
+zookld: Listening on port 8080
+zookld: Launching zookd
+zookld: Launching service 1: dynamic_svc
+zookld: Launching service 2: static_svc
+zookld: Launching service 3: echo_svc
+zookld: Launching service 4: auth_svc
+zookld: Launching service 5: bank_svc
+zookld: Launching service 6: profile_svc
+zookld: Launching service 7: visitor_svc
+zookld: chroot /jail
+zookld: setresgid 0
+zookld: setresuid 0
+zookld: chroot /jail
+zookld: setresgid 1000
+zookld: setresuid 61018
+zookld: chroot /jail
+zookld: setresgid 1000
+zookld: setresuid 61017
+zookld: chroot /jail
+zookld: setresgid 1000
+zookld: setresuid 61016
+zookld: chroot /jail
+zookld: setresgid 61010
+zookld: setresuid 61010
+zookld: chroot /jail
+zookld: setresgid 1000
+zookld: setresuid 61015
+zookfs: cgi uid 61012, gid 1000
+zookld: chroot /jail
+zookld: setresgid 1000
+zookld: setresuid 61014
+zookfs: cgi uid 61013, gid 1000
+zookld: chroot /jail
+zookld: setresgid 1000
+zookld: setresuid 61011
+zookd: Start with 2 service(s)
+zookd: Dispatch ^.*zoobar/index.(cgi|py).*$ for service 1
+zookd: Dispatch ^.*(html|css|jpg|ico).*$ for service 2
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/transfer to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/transfer to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/transfer to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/login to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/ to service 1
+request line: 
+zookd: Forward /zoobar/index.cgi/users to service 1
+request line: 
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+zookfs: recvmsg: Success
+zookfs: recvfd: Success
+zookfs: recvmsg: Success
+zookfs: recvfd: Success

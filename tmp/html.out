@@ -1,0 +1,2190 @@
+============================================================
+Hello user check:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 </i>
+<p>Current time: 1465527876.35
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2336
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Inquisitive
+                      Policy</a></h1>
+      <h2>Supporting the skillful
+          thinkers of the new world order</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 </i>
+<p>Current time: 1465527876.35
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+First visit check:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 </i>
+<p>Your visit count: 0
+<p>Your last visit: never
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2357
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Awesome
+                      Learning</a></h1>
+      <h2>Supporting the proven
+          representatives of the new world order</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 </i>
+<p>Your visit count: 0
+<p>Your last visit: never
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Second visit check:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 </i>
+<p>Your visit count: 1
+<p>Your last visit: 1465527880.55
+
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2360
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Trustworthy
+                      Learning</a></h1>
+      <h2>Supporting the best
+          advocates of the United States</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 </i>
+<p>Your visit count: 1
+<p>Your last visit: 1465527880.55
+
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Last visits check (1/3):
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Last 3 visitors:
+<ul>
+<li> test2 at 1465527888 </li>
+</ul>
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2352
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Responsible
+                      Dialogue</a></h1>
+      <h2>Supporting the important
+          representatives of the new world order</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Last 3 visitors:
+<ul>
+<li> test2 at 1465527888 </li>
+</ul>
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Last visits check (2/3):
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Last 3 visitors:
+<ul>
+<li> test2 at 1465527893 </li>
+<li> test2 at 1465527888 </li>
+</ul>
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2367
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Principled
+                      Learning</a></h1>
+      <h2>Supporting the leading
+          minds of the 21st-century</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Last 3 visitors:
+<ul>
+<li> test2 at 1465527893 </li>
+<li> test2 at 1465527888 </li>
+</ul>
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Last visits check (3/3):
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Last 3 visitors:
+<ul>
+<li> test2 at 1465527897 </li>
+<li> test2 at 1465527893 </li>
+<li> test2 at 1465527888 </li>
+</ul>
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2403
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Sensible
+                      Thinking</a></h1>
+      <h2>Supporting the loyal
+          advocates of the counterinsurgency</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Last 3 visitors:
+<ul>
+<li> test2 at 1465527897 </li>
+<li> test2 at 1465527893 </li>
+<li> test2 at 1465527888 </li>
+</ul>
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Transfer tracker check:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+I gave you 3 zoobars @ Fri Jun 10 03:04:28 2016
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2329
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Patriotic
+                      Policy</a></h1>
+      <h2>Supporting the leading
+          researchers of the United States</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+I gave you 3 zoobars @ Fri Jun 10 03:04:28 2016
+</b></p>
+<span id="zoobars" class="7"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Zoobar grant check:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Thanks for visiting.  I gave you one zoobar.
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2497
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Principled
+                      Research</a></h1>
+      <h2>Supporting the important
+          advocates of the information superhighway</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Thanks for visiting.  I gave you one zoobar.
+</b></p>
+<span id="zoobars" class="6"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+'Greedy visitor check1:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+I gave you a zoobar 6.1 seconds ago
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2486
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Patriotic
+                      Policy</a></h1>
+      <h2>Supporting the meritorious
+          thinkers of the information superhighway</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+I gave you a zoobar 6.1 seconds ago
+</b></p>
+<span id="zoobars" class="6"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Greedy visitor check2:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+You have 24 already; no need for more
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2476
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Patriotic
+                      Dialogue</a></h1>
+      <h2>Supporting the skillful
+          advocates of the 21st-century</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+You have 24 already; no need for more
+</b></p>
+<span id="zoobars" class="6"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+'I am broke' check:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Sorry, I have no more zoobars
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2628
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Responsible
+                      Discourse</a></h1>
+      <h2>Supporting the brightest
+          soldiers of the 21st-century</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Sorry, I have no more zoobars
+</b></p>
+<span id="zoobars" class="0"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:20 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">6</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Exercise 10: /testfile write:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Opening file /testfile
+Opened file /testfile
+Wrote 26 bytes
+SUCCESS
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2663
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Sensible
+                      Thinking</a></h1>
+      <h2>Supporting the brightest
+          soldiers of the United States</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Opening file /testfile
+Opened file /testfile
+Wrote 26 bytes
+SUCCESS
+</b></p>
+<span id="zoobars" class="0"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:20 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">6</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Exercise 10: /testfile write:read and compare:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Opening file /testfile
+Opened file /testfile
+Read 'testfile check test string' from file
+SUCCESS
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2691
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Trustworthy
+                      Research</a></h1>
+      <h2>Supporting the shrewd
+          students of the 21st-century</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Opening file /testfile
+Opened file /testfile
+Read 'testfile check test string' from file
+SUCCESS
+</b></p>
+<span id="zoobars" class="0"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:20 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">6</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Exercise 10: shared /testfile:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+Opening file /testfile
+ERROR : caught exception
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+  File "<string>", line 5, in check
+OSError: [Errno 2] No such file or directory: '/testfile'
+
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2995
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test1</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Trustworthy
+                      Research</a></h1>
+      <h2>Supporting the leading
+          thinkers of the United States</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test2" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+Opening file /testfile
+ERROR : caught exception
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+  File "<string>", line 5, in check
+OSError: [Errno 2] No such file or directory: '/testfile'
+
+</b></p>
+<span id="zoobars" class="30"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test2's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:14 2016</td>
+    <td align="center">test3</td>
+    <td align="center">test2</td>
+    <td align="center">10</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:20 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">6</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Exercise 10: shared /testfile:
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+Opening file /testfile
+ERROR : caught exception
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+  File "<string>", line 5, in check
+OSError: [Errno 2] No such file or directory: '/testfile'
+
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2235
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test1</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Patriotic
+                      Policy</a></h1>
+      <h2>Supporting the foremost
+          advocates of the 21st-century</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1/." size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+is making dir
+
+True
+
+
+anyway
+
+Opening file /testfile
+ERROR : caught exception
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+  File "<string>", line 5, in check
+OSError: [Errno 2] No such file or directory: '/testfile'
+
+</b></p>
+<span id="zoobars" class="10"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1/.'s zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+
+      
+    </body>
+</html>
+
+============================================================
+Check number of root processes
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+DONE
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2606
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Sensible
+                      Policy</a></h1>
+      <h2>Supporting the shrewd
+          soldiers of the information superhighway</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+DONE
+</b></p>
+<span id="zoobars" class="0"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:20 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">6</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+
+============================================================
+Challenge 2: my-profile functional
+
+in profile, result:now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 <i>
+Here are the visitor log
+
+[{u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:36 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:40 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:44 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:48 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:53 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:57 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:01 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:05 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:12 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:18 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:24 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:56 2016'}]
+SUCCESS
+
+
+Status: 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 3719
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/zoobar/media/zoobar.css">
+        <title>
+          Users - Zoobar Foundation
+        </title>
+    </head>
+    <body>
+        
+        
+        <div id="header">
+          <div><a href="/zoobar/index.cgi/logout">Log out test2</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+      <h1><a href="/zoobar/index.cgi/">Zoobar Foundation for Responsible
+                      Thinking</a></h1>
+      <h2>Supporting the loyal
+          advocates of the United States</h2>
+      
+      <div id="main" class="centerpiece">
+        <table>
+          <tr><td>
+             <p>
+               
+                 
+                   <a href="/zoobar/index.cgi/">Home</a>
+                 
+                  | 
+               
+                 
+                   <b>Users</b>
+                 
+                  | 
+               
+                 
+                   <a href="/zoobar/index.cgi/transfer">Transfer</a>
+                 
+                 
+               
+             </p>
+          </td></tr>
+          <tr><td class="main">
+            
+<form name="profileform" method="GET">
+<nobr>User:
+<input type="text" name="user" value="test1" size=10></nobr><br>
+<input type="submit" value="View">
+</form>
+
+<div id="profileheader"><!-- user data appears here --></div>
+<p id="profile"><b>now in profile-server.py
+
+sockpath:/profilesvc/sock
+
+anyway
+
+Hello, <i> test2 <i>
+Here are the visitor log
+
+[{u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:36 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:40 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:44 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:48 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:53 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:04:57 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:01 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:05 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:12 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:18 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:24 2016'}, {u'username': u'test1', u'visitorname': u'test2', u'time': u'Fri Jun 10 03:05:56 2016'}]
+SUCCESS
+</b></p>
+<span id="zoobars" class="0"></span>
+<script type="text/javascript">
+  var total = eval(document.getElementById('zoobars').className);
+  function showZoobars(zoobars) {
+    document.getElementById("profileheader").innerHTML =
+      "test1's zoobars:" + zoobars;
+    if (zoobars < total) {
+      setTimeout("showZoobars(" + (zoobars + 1) + ")", 100);
+    }
+  }
+  if (total > 0) showZoobars(0);  // count up to total
+</script>
+
+
+
+          </td></tr>
+        </table>
+      </div>
+      
+
+<table class="log" align="center">
+<tr><th>Time</th>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Amount</th></tr>
+
+<tr><td align="center">Fri Jun 10 03:04:28 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">3</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:06 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">1</td></tr>
+
+<tr><td align="center">Fri Jun 10 03:05:20 2016</td>
+    <td align="center">test1</td>
+    <td align="center">test2</td>
+    <td align="center">6</td></tr>
+
+</table>
+
+
+      
+    </body>
+</html>
+

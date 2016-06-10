@@ -1,0 +1,159 @@
+cc -m32 -g -std=c99 -Wall -Werror -D_GNU_SOURCE   -c -o zookld.o zookld.c
+cc -m32 -g -std=c99 -Wall -Werror -D_GNU_SOURCE   -c -o http.o http.c
+cc -m32  zookld.o http.o  -lcrypto -o zookld
+cc -m32 -g -std=c99 -Wall -Werror -D_GNU_SOURCE   -c -o zookfs.o zookfs.c
+cc -m32  zookfs.o http.o  -lcrypto -o zookfs
+cc -m32 -g -std=c99 -Wall -Werror -D_GNU_SOURCE   -c -o zookd.o zookd.c
+cc -m32  zookd.o http.o  -lcrypto -o zookd
+./chroot-setup.sh
++ grep -qv uid=0
++ id
++ rm -rf /jail
++ mkdir -p /jail
++ cp -p index.html /jail
++ ./chroot-copy.sh zookd /jail
++ ./chroot-copy.sh zookfs /jail
++ ./chroot-copy.sh /usr/bin/env /jail
++ ./chroot-copy.sh /usr/bin/python /jail
++ ./chroot-copy.sh /usr/bin/openssl /jail
++ mkdir -p /jail/usr/lib /jail/usr/lib/i386-linux-gnu /jail/lib /jail/lib/i386-linux-gnu
++ cp -r /usr/lib/python2.7 /jail/usr/lib
++ cp -r /usr/lib/pymodules /jail/usr/lib
+cp: cannot stat ‘/usr/lib/pymodules’: No such file or directory
++ cp /usr/lib/i386-linux-gnu/libsqlite3.so.0 /jail/usr/lib/i386-linux-gnu
++ cp /usr/lib/i386-linux-gnu/libxslt.so.1 /jail/usr/lib
++ cp /usr/lib/i386-linux-gnu/libexslt.so.0 /jail/usr/lib
++ cp /usr/lib/i386-linux-gnu/libxml2.so.2 /jail/usr/lib
++ cp /lib/i386-linux-gnu/libgcrypt.so.11 /jail/lib
++ cp /lib/i386-linux-gnu/libgpg-error.so.0 /jail/lib
++ cp /lib/i386-linux-gnu/libnss_dns.so.2 /jail/lib/i386-linux-gnu
++ cp /lib/i386-linux-gnu/libresolv.so.2 /jail/lib/i386-linux-gnu
++ cp -r /lib/resolvconf /jail/lib
++ mkdir -p /jail/usr/local/lib
++ cp -r /usr/local/lib/python2.7 /jail/usr/local/lib
++ mkdir -p /jail/etc
++ cp /etc/localtime /jail/etc/
++ cp /etc/timezone /jail/etc/
++ cp /etc/resolv.conf /jail/etc/
++ mkdir -p /jail/usr/share/zoneinfo
++ cp -r /usr/share/zoneinfo/America /jail/usr/share/zoneinfo/
++ create_socket_dir /jail/echosvc 61010:61010 755
++ local dirname=/jail/echosvc
++ local ownergroup=61010:61010
++ local perms=755
++ mkdir -p /jail/echosvc
++ chown 61010:61010 /jail/echosvc
++ chmod 755 /jail/echosvc
++ create_socket_dir /jail/authsvc 61016:1000 755
++ local dirname=/jail/authsvc
++ local ownergroup=61016:1000
++ local perms=755
++ mkdir -p /jail/authsvc
++ chown 61016:1000 /jail/authsvc
++ chmod 755 /jail/authsvc
++ create_socket_dir /jail/banksvc 61017:1000 755
++ local dirname=/jail/banksvc
++ local ownergroup=61017:1000
++ local perms=755
++ mkdir -p /jail/banksvc
++ chown 61017:1000 /jail/banksvc
++ chmod 755 /jail/banksvc
++ create_socket_dir /jail/profilesvc 0:0 755
++ local dirname=/jail/profilesvc
++ local ownergroup=0:0
++ local perms=755
++ mkdir -p /jail/profilesvc
++ chown 0:0 /jail/profilesvc
++ chmod 755 /jail/profilesvc
++ create_socket_dir /jail/visitorsvc 61018:1000 755
++ local dirname=/jail/visitorsvc
++ local ownergroup=61018:1000
++ local perms=755
++ mkdir -p /jail/visitorsvc
++ chown 61018:1000 /jail/visitorsvc
++ chmod 755 /jail/visitorsvc
++ mkdir -p /jail/tmp
++ chmod a+rwxt /jail/tmp
++ mkdir -p /jail/dev
++ mknod /jail/dev/urandom c 1 9
++ cp -r zoobar /jail/
++ rm -rf /jail/zoobar/db
++ python /jail/zoobar/zoodb.py init-person
++ python /jail/zoobar/zoodb.py init-transfer
++ python /jail/zoobar/zoodb.py init-cred
+setting cred
+
++ python /jail/zoobar/zoodb.py init-bank
++ python /jail/zoobar/zoodb.py init-visitor
++ set_perms 61014:1000 775 /jail/zoobar
++ local ownergroup=61014:1000
++ local perms=775
++ local pn=/jail/zoobar
++ chown 61014:1000 /jail/zoobar
++ chmod 775 /jail/zoobar
++ set_perms 61014:1000 775 /jail/zoobar/db/person
++ local ownergroup=61014:1000
++ local perms=775
++ local pn=/jail/zoobar/db/person
++ chown 61014:1000 /jail/zoobar/db/person
++ chmod 775 /jail/zoobar/db/person
++ set_perms 61014:1000 775 /jail/zoobar/db/transfer
++ local ownergroup=61014:1000
++ local perms=775
++ local pn=/jail/zoobar/db/transfer
++ chown 61014:1000 /jail/zoobar/db/transfer
++ chmod 775 /jail/zoobar/db/transfer
++ set_perms 61014:1000 775 /jail/zoobar/db/person/person.db
++ local ownergroup=61014:1000
++ local perms=775
++ local pn=/jail/zoobar/db/person/person.db
++ chown 61014:1000 /jail/zoobar/db/person/person.db
++ chmod 775 /jail/zoobar/db/person/person.db
++ set_perms 61014:1000 775 /jail/zoobar/db/transfer/transfer.db
++ local ownergroup=61014:1000
++ local perms=775
++ local pn=/jail/zoobar/db/transfer/transfer.db
++ chown 61014:1000 /jail/zoobar/db/transfer/transfer.db
++ chmod 775 /jail/zoobar/db/transfer/transfer.db
++ set_perms 61013:1000 775 /jail/zoobar/index.cgi
++ local ownergroup=61013:1000
++ local perms=775
++ local pn=/jail/zoobar/index.cgi
++ chown 61013:1000 /jail/zoobar/index.cgi
++ chmod 775 /jail/zoobar/index.cgi
++ set_perms 61016:1000 700 /jail/zoobar/db/cred
++ local ownergroup=61016:1000
++ local perms=700
++ local pn=/jail/zoobar/db/cred
++ chown 61016:1000 /jail/zoobar/db/cred
++ chmod 700 /jail/zoobar/db/cred
++ set_perms 61016:1000 755 /jail/zoobar/db/cred/cred.db
++ local ownergroup=61016:1000
++ local perms=755
++ local pn=/jail/zoobar/db/cred/cred.db
++ chown 61016:1000 /jail/zoobar/db/cred/cred.db
++ chmod 755 /jail/zoobar/db/cred/cred.db
++ set_perms 61017:1000 700 /jail/zoobar/db/bank
++ local ownergroup=61017:1000
++ local perms=700
++ local pn=/jail/zoobar/db/bank
++ chown 61017:1000 /jail/zoobar/db/bank
++ chmod 700 /jail/zoobar/db/bank
++ set_perms 61017:1000 755 /jail/zoobar/db/bank/bank.db
++ local ownergroup=61017:1000
++ local perms=755
++ local pn=/jail/zoobar/db/bank/bank.db
++ chown 61017:1000 /jail/zoobar/db/bank/bank.db
++ chmod 755 /jail/zoobar/db/bank/bank.db
++ set_perms 61018:1000 700 /jail/zoobar/db/visitor
++ local ownergroup=61018:1000
++ local perms=700
++ local pn=/jail/zoobar/db/visitor
++ chown 61018:1000 /jail/zoobar/db/visitor
++ chmod 700 /jail/zoobar/db/visitor
++ set_perms 61018:1000 755 /jail/zoobar/db/visitor/visitor.db
++ local ownergroup=61018:1000
++ local perms=755
++ local pn=/jail/zoobar/db/visitor/visitor.db
++ chown 61018:1000 /jail/zoobar/db/visitor/visitor.db
++ chmod 755 /jail/zoobar/db/visitor/visitor.db
