@@ -1,0 +1,37 @@
+exercise1：
+
+在zook.conf中定义了动态访问的url规则
+[dynamic_svc]
+    cmd = zookfs
+    url = .*zoobar/index\.(cgi|py).*
+    uid = 61012
+    gid = 61012
+    dir = /jail
+    args = 61015 61012
+但是该规则定义的http://<ip address>:<port>/zoobar/index.cgi.foo<?arg=>可以绕开该规则，所以这样攻击者就可以进行额外的操作。
+
+
+
+exercise2：
+
+在auth.py中，对于用户token的生成使用了random.random()方法
+hashinput = "%s%.10f" % (person.password, random.random())
+person.token = hashlib.md5(hashinput).hexdigest()
+但是该方法并不是最好的，可以使用长度较长的字符串。这样可以加大攻击者攻击的代价。
+
+
+
+exercise3：
+
+profile-server.py运行在root权限下，这样暴露给了攻击者攻击点。当利用RPC对数据库进行访问时，客户端可以对数据库文件进行读取：
+import os
+import base64
+
+fd = 9
+os.lseek(fd, os.SEEK_SET, 0)
+f = os.fdopen(fd)
+data = f.read()
+print base64.b64encode(data)
+攻击者就可以返回读取到的用户数据。
+	
+

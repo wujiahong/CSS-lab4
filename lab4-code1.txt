@@ -1,0 +1,70 @@
+exercise1：
+
+1：login.py文件定义了用户登录注册等服务，其中setPerson方法没有利用RPC机制进行权限分离，而是直接在login.py中对Person数据库进行操作，这样容易被攻击者利用改写setPerson方法，对数据库进行越权操作。
+    def setPerson(self, username, token):
+        persondb = person_setup()
+        self.person = persondb.query(Person).get(username)
+        self.token = token
+        self.zoobars = bank_client.balance(username)
+
+2：index.py文件定义了用户可以修改自己的profile，但是index.py直接对Person数据库进行修改，并不是利用RPC机制对修改操作进行服务的分离，所以攻击者可以修改更新profile函数进行攻击。
+def index():
+    if 'profile_update' in request.form:
+        persondb = person_setup()
+        person = persondb.query(Person).get(g.user.person.username)
+        person.profile = request.form['profile_update']
+        persondb.commit()
+
+        ## also update the cached version (see login.py)
+        g.user.person.profile = person.profile
+    return render_template('index.html')
+
+3：user.py同样没有利用RPC机制对user数据库的操作进行权限分离。
+	persondb = person_setup()
+        user = persondb.query(Person).get(request.values['user'])
+
+4：对于敏感数据的访问应该添加二次认证，例如用户profile、balance以及transfer记录等。由于服务器重启过后客户端利用cookies可以不需要重新进行登录就可以进行授权操作，如果被用户cookies被窃取，那么用户数据就h会被暴露，所以应该增加IP检查。
+下面是可以伪装的http请求：
+GET /zoobar/index.cgi/users?user=test HTTP/1.1
+Host: 192.168.2.69:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+Cookie: PyZoobarLogin=test#08d308c041b6ec18abfbdc59ff776d3d; PyZoobarLogin=test#08d308c041b6ec18abfbdc59ff776d3d
+
+
+
+exercise2：
+
+1：客户端与服务端之间用户名与密码的传输是使用明文传输的，被攻击者截获以后，会被冒充用户进行授权操作。应该在客户端以及服务端传输时对用户名密码或者对密码进行加密处理。
+
+2：用户成功登陆系统后，将会产生新的token作为用户访问敏感资源的令牌，但是token是没有期限的，当用户不进行二次登陆时，那么token一直有效，当用户数据库被窃取，那么没有经过加密的token以及用户名可以被攻击者利用伪装为用户进行越权操作。应该对token进行加密或者设置token的生命期，当用户长时间不进行操作时token过期。
+
+
+
+
+exercise3：
+
+1：profile-server.py获取用户信息没有通过RPC调用，因为profile-server.py是在root权限下执行的，这样暴露数据库访问的接口容易被攻击者利用。
+def rpc_get_user_info(self, username):
+        person_db = zoodb.person_setup()
+        p = person_db.query(zoodb.Person).get(username)
+        if not p:
+            return None
+        return { 'username': p.username,
+                 'profile': p.profile,
+                 'zoobars': bank_client.balance(username),
+               }
+			  
+2：给sandbox设置给定的userid进行可能恶意代码的执行，如果给定的userid是一个特殊的id例如属于root用户组的或者初始用户组的，那么该程序就会有root用户组或者初始用户组的权限进行恶意的操作。不应该在程序中直接给出userid，而是应该把userid写到zook.conf中保证userid是可配置的，同时在生成sandbox的时候对userid进行判断，是否具有不应该具有的权限。
+
+
+
+
+
+
+
